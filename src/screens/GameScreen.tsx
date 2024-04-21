@@ -110,14 +110,14 @@ export default function GameScreen() {
                                 <div className="flex items-center gap-4">
                                     <div className="flex shrink-0 items-center justify-center">
                                         <img
-                                            src={`https://api.dicebear.com/8.x/avataaars-neutral/svg?seed=${winner === "player" ? "denish+sharma" : "rugved+patil"}`}
+                                            src={`https://api.dicebear.com/8.x/avataaars-neutral/svg?seed=${winner === "player" ? "rakesh+thakur" : "rugved+patil"}`}
                                             alt={winner ?? "player"}
                                             className="h-6 w-6 border border-dark-100 rounded-full"
                                         />
                                     </div>
 
                                     <div className="flex-grow text-sm font-medium">
-                                        {winner === "player" ? "Denish Sharma" : "Rugved Patil"}
+                                        {winner === "player" ? "Rakesh Thakur" : "Rugved Patil"}
                                         {" "}
                                         <span className="ml-2 op-40">won the game!</span>
                                     </div>
@@ -131,14 +131,14 @@ export default function GameScreen() {
                             <div key={index} className="flex items-center gap-4">
                                 <div className="flex shrink-0 items-center justify-center">
                                     <img
-                                        src={`https://api.dicebear.com/8.x/avataaars-neutral/svg?seed=${player === "player" ? "denish+sharma" : "rugved+patil"}`}
+                                        src={`https://api.dicebear.com/8.x/avataaars-neutral/svg?seed=${player === "player" ? "rakesh+thakur" : "rugved+patil"}`}
                                         alt={player}
                                         className="h-6 w-6 border border-dark-100 rounded-full"
                                     />
                                 </div>
 
                                 <div className="flex-grow text-sm font-medium">
-                                    {player === "player" ? "Denish Sharma" : "Rugved Patil"}
+                                    {player === "player" ? "Rakesh Thakur" : "Rugved Patil"}
                                     {" "}
                                     <span className="ml-2 op-40">selected</span>
                                     {" "}

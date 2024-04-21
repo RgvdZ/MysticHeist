@@ -30,14 +30,14 @@ export default function GameBoard({ possibleNumbers, makeMove, winner, history }
                     <div className="flex flex-col items-center justify-center">
                         <div className="flex shrink-0 items-center justify-center">
                             <img
-                                src={`https://api.dicebear.com/8.x/avataaars-neutral/svg?seed=${winner === "player" ? "denish+sharma" : "rugved+patil"}`}
+                                src={`https://api.dicebear.com/8.x/avataaars-neutral/svg?seed=${winner === "player" ? "rakesh+thakur" : "rugved+patil"}`}
                                 alt={winner}
                                 className="h-40 w-40 border border-dark-100 rounded-full"
                             />
                         </div>
 
                         <div className="mt-8 flex-grow text-4xl font-medium">
-                            {winner === "player" ? "Denish Sharma" : "Rugved Patil"}
+                            {winner === "player" ? "Rakesh Thakur" : "Rugved Patil"}
                             {" "}
                             wins!
                         </div>
