@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+@import "overlayscrollbars/styles/overlayscrollbars.css";
+
+body {
+    @apply font-sans text-16px h-dvh w-dvw overflow-x-hidden;
+    @apply bg-dark-800 text-light-50;
+}
+
+.x-asfalt-light-texture {
+    background-image: url("../images/asfalt-light.png");
+}
+
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
